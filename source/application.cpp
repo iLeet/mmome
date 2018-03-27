@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// This file is part of Remere's Map Editor
+// This file is part of mmoMapEditor
 //////////////////////////////////////////////////////////////////////
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -163,7 +163,7 @@ bool Application::OnInit()
 	std::string error;
 	StringVector warnings;
 
-	g_gui.root = newd MainFrame("Remere's Map Editor", wxDefaultPosition, wxSize(700,500) );
+	g_gui.root = newd MainFrame("mmoMapEditor", wxDefaultPosition, wxSize(700,500) );
 	SetTopWindow(g_gui.root);
 	g_gui.SetTitle("");
 
@@ -396,7 +396,7 @@ MainFrame::MainFrame(const wxString& title, const wxPoint& pos, const wxSize& si
 
 	wxStatusBar* statusbar = CreateStatusBar();
 	statusbar->SetFieldsCount(4);
-	SetStatusText( wxString("Welcome to Remere's Map Editor ") << __W_RME_VERSION__);
+	SetStatusText( wxString("Welcome to mmoMapEditor ") << __W_RME_VERSION__);
 
 	// Le sizer
 	g_gui.aui_manager = newd wxAuiManager(this);

@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// This file is part of Remere's Map Editor
+// This file is part of mmoMapEditor
 //////////////////////////////////////////////////////////////////////
 // $URL: https://rme.svn.sourceforge.net/svnroot/rme/trunk/source/templatemap76-74.hpp $
 // $Id: templatemap76-74.hpp 264 2009-10-05 06:36:21Z remere $
